@@ -63,7 +63,7 @@ public class GameView extends View {
         textPaint.setColor(Color.rgb(255,165,0));
         textPaint.setTextSize(TEXT_SIZE);
         textPaint.setTextAlign(Paint.Align.LEFT);
-        textPaint.setTypeface(ResourcesCompat.getFont(context, R.font.PublicPixel));
+        textPaint.setTypeface(ResourcesCompat.getFont(context, R.font.publicpixel));
         healthPaint.setColor(Color.GREEN);
         random = new Random();
         cowX = dWidth/2-cow1.getWidth()/2;

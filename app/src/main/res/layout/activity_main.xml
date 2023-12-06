@@ -7,14 +7,14 @@
     android:background="@drawable/game_title"
     android:gravity="bottom|center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivtity">
 
     <Button
         android:layout_width="246dp"
         android:layout_height="match_parent"
         android:layout_marginBottom="155dp"
         android:backgroundTint="#FECEA4"
-        android:fontFamily="@font/PublicPixel"
+        android:fontFamily="@font/pixel"
         android:onClick="startGame"
         android:text="Start"
         android:textColor="@color/black"
