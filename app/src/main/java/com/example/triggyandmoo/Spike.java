@@ -7,7 +7,7 @@ import android.graphics.BitmapFactory;
 import java.util.Random;
 
 public class Spike {
-    Bitmap spike[] = new Bitmap[3];
+    Bitmap spike[] = new Bitmap[4];
     int spikeFrame = 0;
     int spikeX, spikeY, spikeVelocity;
     Random random;
@@ -16,6 +16,7 @@ public class Spike {
         spike[0] = BitmapFactory.decodeResource(context.getResources(), R.drawable.spike0);
         spike[1] = BitmapFactory.decodeResource(context.getResources(), R.drawable.spike1);
         spike[2] = BitmapFactory.decodeResource(context.getResources(), R.drawable.spike2);
+        spike[3] = BitmapFactory.decodeResource(context.getResources(), R.drawable.spike3);
         random = new Random();
         resetPosition();
     }

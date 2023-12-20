@@ -43,7 +43,7 @@ public class GameView extends View {
     int randCharIndex;
 
 
-    private int[] mooTypes = {R.drawable.moo, R.drawable.moo2};
+
 
     public GameView(Context context) {
         super(context);
@@ -110,9 +110,13 @@ public class GameView extends View {
 
         for (int i = 0; i < spikes.size(); i++) {
             canvas.drawBitmap(spikes.get(i).getSpike(spikes.get(i).spikeFrame), spikes.get(i).spikeX, spikes.get(i).spikeY, null);
-            spikes.get(i).spikeFrame++;
-            if (spikes.get(i).spikeFrame > 2) {
-                spikes.get(i).spikeFrame = 0;
+            spikes.get(i).spikeFrame=0;
+             if(randCharIndex==1){
+                 spikes.get(i).spikeFrame = 1;
+            }else if(randCharIndex==2){
+                 spikes.get(i).spikeFrame = 2;
+            }else if(randCharIndex==3){
+                 spikes.get(i).spikeFrame = 3;
             }
             spikes.get(i).spikeY += spikes.get(i).spikeVelocity;
             if (spikes.get(i).spikeY + spikes.get(i).getSpikeHeight() >= dHeight - ground.getHeight()) {
