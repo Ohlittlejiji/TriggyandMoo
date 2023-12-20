@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/game_title"
-    android:gravity="bottom|center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
     android:orientation="vertical"
-    tools:context=".MainActivtity">
+    android:background="@drawable/background"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/game_title" />
 
     <Button
-        android:layout_width="246dp"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="155dp"
-        android:backgroundTint="#FECEA4"
-        android:fontFamily="@font/pixel"
-        android:onClick="startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Start"
-        android:textColor="@color/black"
-        android:textSize="25sp" />
-
-
+        android:fontFamily="@font/acade"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#bb8044"
+        android:onClick="startGame" />
 </LinearLayout>

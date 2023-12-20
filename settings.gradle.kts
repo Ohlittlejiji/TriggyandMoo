@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Triggy&Moo"
+rootProject.name = "Triggy and Moo"
 include(":app")
+ 
