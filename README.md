@@ -18,8 +18,9 @@
 [![info-pic1-1.png](https://i.postimg.cc/MGn5rXZn/info-pic1-1.png)](https://postimg.cc/gwP3xzZp)
 
 2.   เมื่อเกมเริ่มจะสามารถนิ้วบนหน้าจอเพื่อขยับตำแหน่งของตัวละครตามนิ้วมือของเรา
+3.   
 [![info-pic2-1-1.png](https://i.postimg.cc/mg38nHbs/info-pic2-1-1.png)](https://postimg.cc/683r2T2j)
 
-3.   เมื่อตัวละครโดน Spike ที่ตกลงมาหัวใจจะลดลง 1 ดวง เมื่อหัวใจหมดจะถือว่าจบเกมเมื่อผู้เล่นหลบ Spike ได้จะได้คะแนนเล่นให้ได้คะแนนมากที่สุดเพื่อเก็บ Highest Score
+4.   เมื่อตัวละครโดน Spike ที่ตกลงมาหัวใจจะลดลง 1 ดวง เมื่อหัวใจหมดจะถือว่าจบเกมเมื่อผู้เล่นหลบ Spike ได้จะได้คะแนนเล่นให้ได้คะแนนมากที่สุดเพื่อเก็บ Highest Score
 
 [![info-pic3-1.png](https://i.postimg.cc/1XJyMtfc/info-pic3-1.png)](https://postimg.cc/N22hjQ85)
